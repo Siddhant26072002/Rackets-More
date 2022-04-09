@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Racquets&More</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/8f30981f7a.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <nav id="header-nav" class="navbar navbar-default navbar-dark bg-dark">
+        <div class="container">
+          <div class="navbar-header" >
+            <a  href="/home">
+            
+            <div id="logo-img"  alt="logoimg"></div>
+            </a>
+            <button type="button" class="navbar-toggle collapsed visible-sm visible-xs" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+            <span class="sr-only" >TOGGLE NAVIGATION</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+              <ul id="nav-list">
+                <li class="visible-xs">
+                    <a href="index">
+                      <span class="glyphicon gyphicon-home"></span>Home
+                    </a>
+                  </li>
+              <li class="hidden-xs hidden-sm nav-left">
+                <a href="/rackets">
+                  <span class="glyphicon glyphicon-star"></span>
+                  <br>Rackets
+                </a>
+              </li>
+              <li class="hidden-xs hidden-sm nav-left ">
+                <a href="/access">
+                  <span class="glyphicon glyphicon-paperclip"></span>
+                  <br>Accessories
+                </a>
+              </li>
+              <li class="hidden-sm hidden-xs ">
+                <a href="/guide">
+                  <span class="glyphicon glyphicon-book"></span>
+                  <br>Guide
+                </a>
+                
+  
+              </li>
+              </ul>
+          
+            </div>
+            <div class="search-sec">
+              <ul id="search-bar" class="nav navbar-nav floatleftatxs navbar-right">
+              <li class="shrinkatxs"> <div class="search-box">
+                <input type="text" class="search-txt" name="" placeholder="search"><a href="#" class="search-btn"><i class="fas fa-search"></i></i></a>
+              </div> </li>
+              <li><a href="#" class="cart"><span class="glyphicon glyphicon-shopping-cart" ></span> <br class="visible-xs "><span class="hide-text">CART</span> </a> </li>
+              <li><a href="#" class="wishlist"><span class="glyphicon glyphicon-bookmark"></span> <br class="visible-xs"><span class="hide-text">WISHLIST</span></a> </li>
+
+
+            </ul>
+            </div>
+          </div>
+       
+         </nav>   
+       </header><!--end of header-->
+      
+         <%- body %>
+       <!--end of main content-->
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="products" class="col-sm-4">
+            <span> Available Products:
+            </span>
+            <br>
+            1.Rackets<br>
+            2.Shoes<br>
+            3.Shuttlecock<br>
+            4.String
+            <hr class="visible-xs">
+          </section>
+          <section id="cen-foot" class="col-sm-4">
+            <div class="og-symbol">
+           <img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png">
+           <span style="font-weight: bold;">100% ORIGINAL</span>
+            </div><br>
+            <div class="product-return">
+              <span class="return-symbol">
+                <img src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png">
+              </span>
+              <span>Return within 7 days of receiving your order</span>
+            </div><br>
+            <div class="contact-at">
+              Contact us:<br>
+             72619126xx
+            </div>
+          <hr class="visible-xs">
+          </section>
+          <section id="about-info" class="col-sm-4">
+            <span>
+          If you would like to experience the best of online shopping for badminton
+          , you are at the right place. Rackets&more is the
+          ultimate destination for finding the right equipment , being host to a 
+                wide array of merchandise including shoes, string, shuttle-cock,badminton
+                 . It is time to redefine
+                  your game style and we are here to help you out. You can shop online at Rackets&more
+                   from the comfort of your home and get your favourites delivered 
+                   right to your doorstep.
+
+            </span>
+          </section>
+        </div>
+        <div class="text-center copyright">&copy; Copyright Rackets&More</div>
+      </div>
+    </footer>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
